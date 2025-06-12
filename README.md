@@ -67,7 +67,7 @@ flowchart LR
 以下影片展示整個系統從 **課程爬取→模型訓練→推薦產出** 的操作流程，建議先觀看一遍再依指令操作。
 
 
-<video src="https://github.com/seannnnnn1017/fcu-hybrid-course-recommendation" controls style="max-width:100%; height:auto;">
+<video src="https://github.com/seannnnnn1017/fcu-hybrid-course-recommendation/DEMO.mp4" controls style="max-width:100%; height:auto;">
   您的瀏覽器不支援 HTML5 video tag。
 </video>
 
