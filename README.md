@@ -69,20 +69,18 @@ flowchart LR
 
 ```bash
 # 1. 下載專案
-$ git clone https://github.com/your‑repo/course‑rec‑demo.git
-$ cd course‑rec‑demo
+$ git clone https://github.com/your-repo/course-rec-demo.git
+$ cd course-rec-demo
 
-# 2. 建立虛擬環境（建議）
-$ conda create -n courseRec python=3.10
+# 2. 建立 / 匯入 conda 環境（建議）
+$ conda env create -f environment.yml -n courseRec  # 第一次使用
+#   若已建立過，可改用 conda env update -f environment.yml -n courseRec
 $ conda activate courseRec
 
-# 3. 安裝依賴
-$ pip install -r requirements.txt
-
-# 4. 先爬課程資料（可跳過，使用範例 CSV）
+# 3. 先爬課程資料（可跳過，使用範例 CSV）
 $ python SeleniumBase/test.py  # 依指示選單操作
 
-# 5. 啟動推薦系統
+# 4. 啟動推薦系統
 $ streamlit run main_vison.py
 ```
 
