@@ -2,7 +2,7 @@
 
 > SeleniumBase + Streamlit + PyTorch 混合式課程推薦範例專案
 >
-> *作者：項羽*
+> *作者：向宇翔 Hsiang Yu-Hsiang*
 
 ---
 
@@ -58,6 +58,18 @@ flowchart LR
   end
   E --> F[Streamlit UI]
   F -->|Top‑k 推薦| U[使用者]
+```
+
+---
+
+## Demo 示範
+
+以下影片展示整個系統從 **課程爬取→模型訓練→推薦產出** 的操作流程，建議先觀看一遍再依指令操作。
+
+```html
+<video src="DEMO.mp4" controls style="max-width:100%; height:auto;">
+  您的瀏覽器不支援 HTML5 video tag。
+</video>
 ```
 
 ---
