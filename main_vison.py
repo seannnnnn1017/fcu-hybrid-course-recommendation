@@ -569,9 +569,9 @@ def main():
 
         with tab2:
             # 模型訓練區域
-            st.subheader("🤖 模型訓練")
+            st.subheader("模型訓練")
             
-            if st.button("🚀 開始訓練模型", type="primary"):
+            if st.button("開始訓練模型", type="primary"):
                 progress_bar = st.progress(0)
                 status_text = st.empty()
                 
@@ -813,7 +813,7 @@ def main():
                     st.plotly_chart(fig, use_container_width=True)
             
             else:
-                st.info("👆 請先選擇學生並點擊「生成推薦」按鈕")
+                st.info("請先選擇學生並點擊「生成推薦」按鈕")
         
     else:
         # 系統說明
